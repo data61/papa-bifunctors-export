@@ -5,7 +5,7 @@ module Papa.Bifunctors.Export(
 ) where
 
 import Data.Biapplicative as P(Biapplicative(bipure, (<<*>>), (*>>), (<<*)), (<<$>>), (<<**>>), biliftA2, biliftA3)
-import Data.Bifoldable as P(Bifoldable(bifold, bifoldMap), bifoldr, bifoldl, bifoldr', bifoldrM, bifoldl', bifoldlM, bitraverse_, bifor_, bimapM_, biforM_, bimsum, bisequenceA_, bisequence_, biasum, biList, binull, bilength, bielem, bisum, biproduct, biconcat, biconcatMap, biand, bior, biany, biall, binotElem, bifind) -- todo re-implement some of these
+import Data.Bifoldable as P(Bifoldable(bifold, bifoldMap), bifoldr, bifoldl, bifoldr', bifoldrM, bifoldl', bifoldlM, bitraverse_, bifor_, bimapM_, biforM_, bimsum, bisequenceA_, bisequence_, biasum, biList, binull, bilength, bielem, bisum, biproduct, biand, bior, biany, biall, binotElem, bifind) -- todo re-implement some of these
 import Data.Bifunctor.Biff as P(Biff, Biff(runBiff))
 import Data.Bifunctor.Clown as P(Clown, Clown(runClown))
 import Data.Bifunctor.Fix as P(Fix, Fix(out))
